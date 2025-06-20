@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Yoga Day 2025 | Harmony for Humanity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3a7a6d;
+            --secondary: #d4a55e;
+            --accent: #c85d4e;
+            --light: #f8f5f0;
+            --dark: #152821;
+            --gold: #d4af37;
+            --transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            overflow-x: hidden;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f8f5f0 0%, #e8f0ed 100%);
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        
+        /* Professional Intro Animation */
+        .intro-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            background: linear-gradient(135deg, #152821, #3a7a6d);
+            transition: opacity 1s ease, visibility 1s;
+            overflow: hidden;
+        }
+        
+        .lotus-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-bottom: 50px;
+        }
+        
+        .lotus {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, #fff 30%, transparent 70%);
+            border-radius: 50%;
+            animation: lotusBloom 2s forwards;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .lotus::before {
+            content: '';
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            background: radial-gradient(circle, #d4af37 20%, transparent 70%);
+            border-radius: 50%;
+            animation: pulse 3s infinite alternate;
+        }
+        
+        .intro-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s 0.5s forwards;
+        }
+        
+        .main-title {
+            font-size: 4.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .date-display {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+        
+        .creators {
+            font-size: 2rem;
+            color: var(--gold);
+            position: relative;
+            padding: 0.5rem 1.5rem;
+            display: inline-block;
+        }
+        
+        @keyframes lotusBloom {
+            0% { transform: scale(0.3); opacity: 0; }
+            70% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            100% { transform: scale(1.05); opacity: 1; }
+        }
+        
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        
+        /* Main Content */
+        .main-content {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: var(--transition);
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 25px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(248, 245, 240, 0.95);
+            z-index: 100;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+            transition: var(--transition);
+            backdrop-filter: blur(10px);
+        }
+        
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .logo i {
+            margin-right: 12px;
+            color: var(--gold);
+            font-size: 2.5rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav li {
+            margin: 0 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 5px;
+            font-size: 1.1rem;
+            transition: var(--transition);
+        }
+        
+        nav a:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--gold);
+            transition: var(--transition);
+        }
+        
+        nav a:hover:after {
+            width: 100%;
+        }
+        
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(21, 40, 33, 0.85), rgba(21, 40, 33, 0.9)), 
+                        url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1920') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 0%, rgba(21, 40, 33, 0.9) 100%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+        }
+        
+        .hero h1 {
+            font-size: 5rem;
+            margin-bottom: 30px;
+            text-shadow: 0 0 30px rgba(0,0,0,0.5);
+            animation: textGlow 3s infinite alternate;
+            letter-spacing: 2px;
+        }
+        
+        .hero p {
+            font-size: 1.8rem;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--dark);
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: var(--transition);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            font-size: 1.1rem;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            background: transparent;
+            color: var(--gold);
+            border-color: var(--gold);
+        }
+        
+        section {
+            padding: 150px 10%;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        
+        .section-header h2 {
+            font-size: 3.5rem;
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        
+        .section-header h2:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 5px;
+            background: var(--gold);
+            border-radius: 3px;
+        }
+        
+        .section-header p {
+            max-width: 800px;
+            margin: 30px auto 0;
+            font-size: 1.3rem;
+            color: rgba(26, 46, 40, 0.8);
+            line-height: 1.7;
+        }
+        
+        /* Yoga Styles */
+        .styles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 50px;
+        }
+        
+        .style-card {
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+            transition: var(--transition);
+            position: relative;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .style-card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+        }
+        
+        .card-image {
+            aspect-ratio: 1 / 1;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .card-image::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(21, 40, 33, 0.7) 0%, transparent 60%);
+        }
+        
+        .card-content {
+            padding: 40px;
+        }
+        
+        .card-content h3 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .card-content h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--gold);
+        }
+        
+        .card-content p {
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .card-content strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .benefits-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.12);
+        }
+        
+        .benefit-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gold);
+        }
+        
+        .benefit-icon {
+            font-size: 4rem;
+            color: var(--gold);
+            margin-bottom: 30px;
+            text-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: var(--primary);
+        }
+        
+        .benefit-card p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        /* Designers Section */
+        .designers-section {
+            background: linear-gradient(135deg, #152821 0%, #3a7a6d 100%);
+            color: white;
+            text-align: center;
+            padding: 150px 10%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .designers-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1593810451137-5dc55105dace?auto=format&fit=crop&w=1920') center/cover no-repeat;
+            opacity: 0.1;
+        }
+        
+        .designers-container {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            margin-top: 70px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .designer-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            padding: 50px 40px;
+            width: 380px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: var(--transition);
+        }
+        
+        .designer-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .designer-icon {
+            width: 120px;
+            height: 120px;
+            background: var(--gold);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            color: var(--dark);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+        }
+        
+        .designer-card h3 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: var(--gold);
+        }
+        
+        .designer-role {
+            font-size: 1.3rem;
+            color: var(--gold);
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .designer-info {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-top: 30px;
+            background: rgba(0,0,0,0.15);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 3px solid var(--gold);
+        }
+        
+        /* Gallery Section */
+        .gallery-section {
+            background: linear-gradient(135deg, #f0f7f5 0%, #e0ede8 100%);
+            padding: 100px 5%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .gallery-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary);
+            font-size: 3rem;
+            position: relative;
+        }
+        
+        .gallery-title:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 4px;
+            background: var(--gold);
+        }
+        
+        .poster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .poster-item {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            transform: translateY(30px);
+            opacity: 0;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            aspect-ratio: 3/4;
+            cursor: pointer;
+        }
+        
+        .gallery-section.active .poster-item {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .poster-img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.5s ease;
+        }
+        
+        .poster-item:hover .poster-img {
+            transform: scale(1.05);
+        }
+        
+        .poster-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.7));
+            color: white;
+        }
+        
+        .poster-overlay h3 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--gold);
+        }
+        
+        .poster-overlay p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 100px 10% 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1920') center/cover no-repeat;
+            opacity: 0.05;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            margin-bottom: 70px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--gold);
+        }
+        
+        .social-icons {
+            display: flex;
+            margin-top: 30px;
+        }
+        
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            margin-right: 15px;
+            color: white;
+            transition: var(--transition);
+            font-size: 1.3rem;
+        }
+        
+        .social-icons a:hover {
+            background: var(--gold);
+            transform: translateY(-7px);
+            color: var(--dark);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 1rem;
+            color: rgba(255,255,255,0.7);
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* Animations */
+        @keyframes textGlow {
+            0% { text-shadow: 0 0 10px rgba(255,255,255,0.5); }
+            100% { text-shadow: 0 0 40px rgba(255,255,255,0.8), 0 0 80px rgba(255,255,255,0.5); }
+        }
+        
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Responsive */
+        @media (max-width: 1100px) {
+            .hero h1 { font-size: 4rem; }
+            .section-header h2 { font-size: 3rem; }
+            .main-title { font-size: 3.5rem; }
+            .poster-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 3rem; }
+            .hero p { font-size: 1.5rem; }
+            .section-header h2 { font-size: 2.5rem; }
+            .main-title { font-size: 3rem; }
+            .date-display { font-size: 2rem; }
+            nav ul { display: none; }
+            .designers-container { gap: 40px; }
+            .designer-card { width: 100%; max-width: 500px; }
+            .poster-grid { grid-template-columns: 1fr; }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero p { font-size: 1.3rem; }
+            .main-title { font-size: 2.5rem; }
+            .date-display { font-size: 1.8rem; }
+            section { padding: 100px 5%; }
+            .styles-container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Professional Intro Animation -->
+    <div class="intro-animation" id="introAnimation">
+        <div class="lotus-container">
+            <div class="lotus"></div>
+        </div>
+        
+        <div class="intro-content">
+            <h1 class="main-title">International Yoga Day</h1>
+            <div class="date-display">21 June 2025</div>
+            <div class="creators">By Anish & Krishna | Class 10A</div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+        <header>
+            <div class="logo">
+                <i class="fas fa-lotus"></i>
+                YogaDay-2025
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#styles">Styles</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#designers">Designers</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Harmony for Humanity</h1>
+                <p>Join the global celebration of yoga on June 21, 2025. Embrace the journey to wellness, peace, and unity.</p>
+                <a href="#gallery" class="cta-button">Explore Yoga Posters</a>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="section-header">
+                <h2>About Yoga Day</h2>
+                <p>International Yoga Day, celebrated annually on June 21st, aims to raise awareness worldwide of the many benefits of practicing yoga.</p>
+            </div>
+            
+            <div class="about-content">
+                <p>Established by the United Nations in 2014, International Yoga Day recognizes yoga's holistic approach to health and well-being. The theme for 2025 is "Harmony for Humanity," emphasizing yoga's power to unite people across all boundaries.</p>
+                
+                <p>Yoga is an ancient physical, mental and spiritual practice that originated in India. The word 'yoga' derives from Sanskrit and means to join or to unite, symbolizing the union of body and consciousness. Today it is practiced in various forms around the world and continues to grow in popularity.</p>
+                
+                <p>On June 21, 2025, millions of people worldwide will participate in yoga sessions, workshops, and celebrations. Join this global movement to experience transformation and connection.</p>
+            </div>
+        </section>
+        
+        <section id="styles" style="background: #f0f7f5;">
+            <div class="section-header">
+                <h2>Yoga Styles</h2>
+                <p>Explore the diverse world of yoga and find the style that resonates with your journey.</p>
+            </div>
+            
+            <div class="styles-container">
+                <div class="style-card">
+                    <div class="card-image" style="background: url('https://i.pinimg.com/736x/5b/2c/91/5b2c916cd21789689e206b6962672875.jpg') center/cover;"></div>
+                    <div class="card-content">
+                        <h3>Hatha Yoga</h3>
+                        <p>The foundation of all yoga styles. Hatha focuses on basic postures at a comfortable pace, ideal for beginners to learn poses and breathing techniques.</p>
+                        <p><strong>Best for:</strong> Beginners, foundational practice</p>
+                    </div>
+                </div>
+                
+                <div class="style-card">
+                    <div class="card-image" style="background: url('https://i.pinimg.com/736x/0d/18/a6/0d18a60d42a7982585834e7df4ca3917.jpg') center/cover;"></div>
+                    <div class="card-content">
+                        <h3>Vinyasa Yoga</h3>
+                        <p>A dynamic practice that links breath with movement. Flowing sequences vary from class to class, offering creativity and fluidity.</p>
+                        <p><strong>Best for:</strong> Building strength and flexibility</p>
+                    </div>
+                </div>
+                
+                <div class="style-card">
+                    <div class="card-image" style="background: url('https://i.pinimg.com/736x/59/56/64/5956647eb5136c9e013b5ec0e627d787.jpg') center/cover;"></div>
+                    <div class="card-content">
+                        <h3>Ashtanga Yoga</h3>
+                        <p>A rigorous style following a specific sequence of postures. Ashtanga is physically demanding and synchronizes breath with progressive series of postures.</p>
+                        <p><strong>Best for:</strong> Discipline, endurance, advanced practitioners</p>
+                    </div>
+                </div>
+                
+                <div class="style-card">
+                    <div class="card-image" style="background: url('https://i.pinimg.com/736x/bd/9d/d9/bd9dd9f625e86feb1a1d8356483f4fbf.jpg') center/cover;"></div>
+                    <div class="card-content">
+                        <h3>Kundalini Yoga</h3>
+                        <p>Focuses on awakening energy at the base of the spine through chanting, breathing exercises, and repetitive poses.</p>
+                        <p><strong>Best for:</strong> Spiritual awakening, energy work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="benefits">
+            <div class="section-header">
+                <h2>Benefits of Yoga</h2>
+                <p>Experience transformation in body, mind, and spirit through the power of yoga.</p>
+            </div>
+            
+            <div class="benefits-container">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Physical Health</h3>
+                    <p>Improves flexibility, balance, and strength. Enhances cardiovascular health and boosts immunity. Reduces chronic pain and injury risk.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Mental Clarity</h3>
+                    <p>Reduces stress and anxiety. Improves focus and concentration. Enhances memory and cognitive function. Promotes better sleep quality.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Emotional Balance</h3>
+                    <p>Increases self-awareness and mindfulness. Regulates mood and emotional responses. Builds resilience and coping skills. Fosters positive outlook.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3>Spiritual Growth</h3>
+                    <p>Deepens connection with inner self. Enhances sense of purpose and meaning. Fosters compassion and empathy. Cultivates inner peace and harmony.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="designers-section" id="designers">
+            <div class="section-header">
+                <h2 style="color: var(--gold);">Creative Minds</h2>
+                <p>The Talented designers behind this E-Poster</p>
+            </div>
+            
+            <div class="designers-container">
+                <div class="designer-card">
+                    <div class="designer-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Anish Kumar</h3>
+                    <div class="designer-role">Senior Project Artist</div>
+                    <p>With a passion for aesthetic design and digital artistry, Anish brings visions to life through innovative interfaces and breathtaking visuals. A Software Developer From Class 10A.</p>
+                    <div class="designer-info">
+                        <i class="fas fa-graduation-cap"></i> Class 10th - Section A<br>
+                        <i class="fas fa-award"></i> Lead Designer<br>
+                        <i class="fas fa-lightbulb"></i> Creative Visionary<br>
+                        <i class="fas fa-brush"></i> Visual & Animation Designer<br>
+                        <i class="fas fa-magic"></i> UI/UX And Backend-Coder<br>
+                    </div>
+                </div>
+                
+                <div class="designer-card">
+                    <div class="designer-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Krishna</h3>
+                    <div class="designer-role">Partner Artist</div>
+                    <p>Class 10th Section A's creative prodigy, Krishna combines Art SKills with Artistic flair to create harmonious digital experiences.</p>
+                    <div class="designer-info">
+                        <i class="fas fa-graduation-cap"></i> Class 10th - Section A<br>
+                        <i class="fas fa-lightbulb"></i> Creative Visionary<br>
+                        <i class="fas fa-brush"></i> Poster Designer<br>
+                        <i class="fas fa-code"></i> Co-Frontend Developer<br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <div class="gallery-container">
+                <h2 class="gallery-title">Yoga Mastery Collection</h2>
+                <div class="poster-grid">
+                    <div class="poster-item">
+                        <div class="poster-img" style="background: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200') center/cover;"></div>
+                        <div class="poster-overlay">
+                            <h3>Serenity Flow</h3>
+                            <p>Harmony of mind and body in perfect balance</p>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-item">
+                        <div class="poster-img" style="background: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200') center/cover;"></div>
+                        <div class="poster-overlay">
+                            <h3>Sunrise Warrior</h3>
+                            <p>Strength and focus at dawn's first light</p>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-item">
+                        <div class="poster-img" style="background: url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200') center/cover;"></div>
+                        <div class="poster-overlay">
+                            <h3>Zen Ascent</h3>
+                            <p>Elevating consciousness through breath</p>
+                        </div>
+                    </div>
+                    
+                    <div class="poster-item">
+                        <div class="poster-img" style="background: url('https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=1200') center/cover;"></div>
+                        <div class="poster-overlay">
+                            <h3>Mountain Meditation</h3>
+                            <p>Unshakable presence and inner stillness</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Yoga Day 2025</h3>
+                    <p>Join the global movement celebrating yoga as a holistic approach to health and well-being. Together, we create harmony for humanity.</p>
+                    
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 15px;"><a href="#about" style="color: white; text-decoration: none; font-size: 1.1rem;">About Yoga Day</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#styles" style="color: white; text-decoration: none; font-size: 1.1rem;">Yoga Styles</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#benefits" style="color: white; text-decoration: none; font-size: 1.1rem;">Benefits</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#designers" style="color: white; text-decoration: none; font-size: 1.1rem;">Designers</a></li>
+                        <li style="margin-bottom: 15px;"><a href="#gallery" style="color: white; text-decoration: none; font-size: 1.1rem;">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Details: </h3>
+                    <p style="margin-bottom: 15px;"><i class="fas fa-map-marker-alt"></i> Anish.Software.Development.co.in</p>
+                    <p style="margin-bottom: 15px;"><i class="fas fa-phone"></i> +91 9113495879</p>
+                    <p style="margin-bottom: 15px;"><i class="fas fa-envelope"></i> official.anish.967@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 International Yoga Day. All Rights Reserved. | Harmony for Humanity</p>
+                <p style="margin-top: 15px;">Designed with ❤️ by Anish Kumar & Krishna (Class 10 A)</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const introAnimation = document.getElementById('introAnimation');
+            const mainContent = document.getElementById('mainContent');
+            const gallerySection = document.querySelector('.gallery-section');
+            
+            // Professional intro animation
+            setTimeout(() => {
+                introAnimation.style.opacity = '0';
+                introAnimation.style.visibility = 'hidden';
+                
+                mainContent.style.opacity = '1';
+                mainContent.style.transform = 'translateY(0)';
+                
+                // Activate gallery animations when section is in view
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active');
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                observer.observe(gallerySection);
+                
+                // Animate sections on scroll
+                const sections = document.querySelectorAll('section');
+                
+                const sectionObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                }, { threshold: 0.1 });
+                
+                sections.forEach(section => {
+                    section.style.opacity = '0';
+                    section.style.transform = 'translateY(40px)';
+                    section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                    sectionObserver.observe(section);
+                });
+            }, 2500);
+            
+            // Smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Header scroll effect
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                if (window.scrollY > 100) {
+                    header.style.padding = '15px 5%';
+                    header.style.boxShadow = '0 5px 30px rgba(0,0,0,0.15)';
+                } else {
+                    header.style.padding = '25px 5%';
+                    header.style.boxShadow = '0 5px 30px rgba(0,0,0,0.08)';
+                }
+            });
+        });
+    </script>
+
+<!-- Fullscreen Viewer -->
+<div id="fullscreenViewer" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); z-index:3000; justify-content:center; align-items:center;">
+    <img id="fullscreenImage" src="" alt="Fullscreen Poster" style="max-width:90%; max-height:90%; object-fit:contain; box-shadow: 0 0 20px rgba(255,255,255,0.3); border-radius: 10px;">
+    <button id="closeFullscreen" style="position:absolute; top:30px; right:30px; font-size:2rem; background:transparent; border:none; color:white; cursor:pointer;">&times;</button>
+</div>
+
+<script>
+document.querySelectorAll('.poster-item .poster-img').forEach(item => {
+    item.addEventListener('click', () => {
+        const viewer = document.getElementById('fullscreenViewer');
+        const image = document.getElementById('fullscreenImage');
+        const style = window.getComputedStyle(item);
+        const bg = style.getPropertyValue('background-image');
+        const url = bg.slice(5, -2);
+        image.src = url;
+        viewer.style.display = 'flex';
+    });
+});
+
+document.getElementById('closeFullscreen').addEventListener('click', () => {
+    document.getElementById('fullscreenViewer').style.display = 'none';
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        document.getElementById('fullscreenViewer').style.display = 'none';
+    }
+});
+
+document.getElementById('fullscreenViewer').addEventListener('click', (e) => {
+    if (e.target.id === 'fullscreenViewer') {
+        e.target.style.display = 'none';
+    }
+});
+</script>
+
+</body>
+</html>
